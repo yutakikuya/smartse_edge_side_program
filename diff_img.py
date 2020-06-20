@@ -17,7 +17,7 @@ def filteringProcess(imgs):
 #きれいな部屋画像（本気で作るならユーザが模様替えしたらアプリから変更できるようにすべき）
 clean_room_img = cv2.imread("clean_room.jpg",0)
  
-img_folder = "/home/pi/room/"
+img_folder = "./room/"
 #todo: 10枚直近の画像取得
 #for
 

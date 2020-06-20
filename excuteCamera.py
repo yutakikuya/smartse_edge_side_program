@@ -11,7 +11,7 @@ def isCapturable(l):
 	return l > 30
 
 #画像出力フォルダ
-room_img_folder = "/home/pi/room/"
+room_img_folder = "./room/"
 
 now=datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
 #日付フォルダ作成処理
