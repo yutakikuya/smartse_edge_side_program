@@ -25,7 +25,7 @@ ret, frame = cap.read()
 frame_avg = np.average(frame)
 print(frame_avg)
 if isCapturable(frame_avg):
-	now_str="{0:%Y%m%d-%H%M}".format(now)
+	now_str="{0:%Y%m%d%H%M}".format(now)
 	cv2.imwrite(room_img_folder+"{0:%Y%m%d}".format(now)+"/"+now_str+".jpg",frame)
 
 cap.release()
